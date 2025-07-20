@@ -6,3 +6,15 @@ Steps
 History
 - before maven existed jar files for all the dependencies haad to be
   added manually but with the inception of maven, process got smoother
+
+Creating a Bean 
+- go to https://docs.spring.io/spring-framework/docs/4.2.x/spring-framework-reference/html/xsd-configuration.html
+- copy bean xml and create a new xml file in resources and paste it.
+- create a bean with id and class. This id will be used to create the object of our class which will be a bean.
+
+Bean Definition
+- objects created by spring application are known as beans
+- Bean configuration can be provide in many ways like xml, annotations
+
+Lifecycle of Bean
+- instanctiation ---> population of attributes ----> initialization(dependency injection) ---> ready for use
