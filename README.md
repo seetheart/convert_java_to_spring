@@ -18,3 +18,9 @@ Bean Definition
 
 Lifecycle of Bean
 - instanctiation ---> population of attributes ----> initialization(dependency injection) ---> ready for use
+
+
+Autowiring
+- handling of beans without configuring in any xml file
+- 3 types: by name, by constructor, by type
+- for byName autowiring we don't need constructor, we just need setter.
