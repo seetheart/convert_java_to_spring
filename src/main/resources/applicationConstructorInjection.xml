@@ -10,8 +10,6 @@
         <property name="model" value="Corolla" />
     </bean>
     <bean id="myCar" class="car.constructor.injection.Car">
-        <constructor-arg ref="carSpecification" />
+        <property name="specification" ref="carSpecification" />
     </bean>
-
-
 </beans>
