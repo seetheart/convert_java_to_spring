@@ -24,3 +24,9 @@ Autowiring
 - handling of beans without configuring in any xml file
 - 3 types: by name, by constructor, by type
 - for byName autowiring we don't need constructor, we just need setter.
+
+Component
+- It is a bean autodetected by spring without explicitly writing in xml.
+- only context:component base location has to be registered in the xml.
+- @Value() can be used to put a defualt value for data members
+- if there are multiple beans of same type then use @Qualifier()
